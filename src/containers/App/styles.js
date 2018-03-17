@@ -16,4 +16,7 @@ const styles = {
   },
 };
 
+export const red = 'red';
+export const blue = 'blue';
+
 export default styles;

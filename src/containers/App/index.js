@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import styles from './styles.js';
+import styles, { red } from './styles.js';
 
 class App extends Component {
   render() {
     return (
         <div style={styles.container}>
-          <header style={styles.header}>
+          <header style={{...styles.header, color: red}}>
             <h1 style={styles.title}>Welcome to React</h1>
           </header>
           <p style={styles.intro}>
